@@ -156,9 +156,9 @@ function setDefaults(defaults)
 		changeUnits();
 	}
 	
-	document.getElementById("exporttype").selectedIndex = 0;
+	document.getElementById("exportType").selectedIndex = 0;
 	if (args[3] == "lines")
-		document.getElementById("exporttype").selectedIndex = 1;	
+		document.getElementById("exportType").selectedIndex = 1;	
 	
 	if (args[4] == "true")
 		document.getElementById("exportHidden").checked = true;	
@@ -259,7 +259,7 @@ function doLoad()
 				<tr>
 					<td width="4.5%"></td>
 					<td width="25%"><p class="heading-green">Group exported face(s) as: </p></td>
-					<td width="25%"><select width="100%" id="exporttype">									
+					<td width="25%"><select width="100%" id="exportType">									
 									<option id="paths">Paths...</option>
 									<option id="lines">Lines...</option>									
 								</select></td>
